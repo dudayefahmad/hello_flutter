@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: Strings.appTitle,
       theme: new ThemeData(
-        primaryColor: Colors.pink,
+        primaryColor: Colors.pink, 
       ),
       home: RandomWords(),
     );
